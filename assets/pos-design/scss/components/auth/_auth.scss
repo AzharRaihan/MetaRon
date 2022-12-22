@@ -1,0 +1,69 @@
+#auth-page {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: white;
+  max-width: 500px;
+  .alert-box {
+    padding: 20px 20px 0 20px;
+  }
+  .login-box-wrapper {
+    padding: 20px 60px 60px 60px;
+    .title-wrapper {
+      text-align: center;
+      .auth-title {
+        font-size: 2rem;
+        color: $txt_color;
+        margin: 0;
+      }
+      .auth-desc {
+        font-size: 16px;
+        color: lighten($txt_color, 5);
+        margin: 10px 0;
+      }
+    }
+    .switch-btn {
+      input {
+        display: none;
+        &:checked ~ label {
+          background-color: $primary_color;
+          color: white;
+        }
+      }
+      label {
+        background-color: $secondary_color;
+        color: #333;
+        padding: 20px;
+        display: block;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.numeric-pad {
+  .serialize-btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    button {
+      @extend .secondary-btn;
+      font-size: 20px;
+      height: 60px;
+      &.action {
+        @extend .primary-btn;
+        font-size: 15px;
+        i {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .zero-btn {
+    @extend .secondary-btn;
+    font-size: 20px;
+    height: 80px;
+  }
+}

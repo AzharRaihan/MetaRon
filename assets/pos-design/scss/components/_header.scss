@@ -1,0 +1,51 @@
+#app-header{
+  border: 1px solid #ccc;
+  padding: 6px;
+  .logo{
+    width: 90px;
+    margin-right: 20px;
+  }
+  .menu-bar-slider{
+    width: calc(100% - 115px);
+    .menu-btn{
+      width: 163px;
+      padding: 10px 10px;
+      height: 60px;
+      line-height: 20px;
+      user-select: none;
+      &.selected{
+        background-color: $yellow;
+      }
+    }
+    .goToDash{
+      text-align: center;
+      line-height: 40px;
+    }
+    .owl-nav{
+      .owl-prev{
+        left: -31px;
+      }
+      .owl-next{
+       right: -21px;
+      }
+      button{
+        position: absolute;
+        top: 0;
+        background-color: white;
+        color: #333;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,82 @@
+.box-body-scroll{
+	overflow : scroll;
+}
+
+.dashboadwrapper .small-box{
+	padding: 15px 20px !important;
+}
+
+.black_sky{
+	background:linear-gradient(90deg, #000000 0%, #0084d4 100%)
+}
+.red_back{
+	background:linear-gradient(321deg, #000000d4 -35.32%, #ff2626 100%);
+}
+
+.light_green{
+	background:linear-gradient(315deg, #000000 -35.32%, #037778d1 100%);
+}
+
+.dark_yellow_black{
+	background:linear-gradient(210deg, #add400 -35.32%, #000000d1 100%);
+}
+
+.dashboard_inner_box{
+    width: 360px !important;
+    height: 135px !important;
+}
+
+.grid_view_new {
+    display: flex !important;
+    margin-top: 12px !important;
+    flex-wrap: wrap !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+    width: unset !important;
+}
+
+.dashboard_inner_box {
+    /* width: 360px !important; */
+    /* height: 135px !important; */
+    width: calc(20% - 0px) !important;
+    /* height: 135px !important; */
+    padding: 0 10px  !important;
+}
+
+.dash_icons img{
+	height: 50px !important;
+}
+
+.darkblue_back .inner h3{
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+/*DESKTOP*/
+	.dashboard_inner_box{
+		width: 50% !important;
+	}	
+} 
+
+
+@media only screen and (max-width: 991px) {
+	/*TAB I PRO TAB*/
+	.dashboard_inner_box{
+		width: 50% !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+/* TAB */
+	.dashboard_inner_box {
+		width: 50% !important;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 575px) {
+	/*MOBILE*/
+	.dashboard_inner_box {
+		width: 100% !important;
+	}
+}

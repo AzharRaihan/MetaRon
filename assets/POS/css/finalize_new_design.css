@@ -1,0 +1,296 @@
+/* Old CSS Customize */
+#order_payment_modal {
+  max-width: 768px;
+}
+#order_payment_modal .modal-content #modal_item_name {
+  padding: 0px 15px;
+  background-color: white;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: end;
+
+}
+
+
+
+
+
+
+
+
+
+/* Finalize Modal New CSS */
+
+.finalize-modal-wrap{
+  padding: 1% 3%;
+  background-color: #747378;
+
+
+  height: 551px;
+  overflow-y: scroll;
+
+
+}
+
+.finalize-modal-wrap .finalize-calculator-wrap{
+  display: grid;
+  grid-template-columns: 35% 60%;
+  grid-gap: 5%;
+}
+.finalize-modal-wrap .clear-trigger{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.finalize-modal-wrap .trigger-message {
+  background-color: #dfdfdf;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  font-size: 15px;
+}
+.finalize-modal-wrap .clear-trigger button{
+  background-color: #bab8c3;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  font-weight: 700;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.finalize-modal-wrap .clear-trigger button:hover{
+  background-color: #bab8c3;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  font-weight: 700;
+}
+.finalize-modal-wrap .clear-trigger .btn:active {
+  /* color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg); */
+  border-color: none;
+
+}
+.finalize-modal-wrap .dispaly-result-outline{
+  height: 59px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.finalize-modal-wrap .dispaly-result{
+  height: 49px;
+  padding: 10px;
+  word-break: break-all;
+  overflow-y: scroll;
+}
+
+.finalize-modal-wrap .number-wrap{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 10px;
+}
+.finalize-modal-wrap .number-wrap button{
+  height: 48px;
+  background-color: #bab8c3;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finalize-modal-wrap .number-wrap button:hover{
+  background-color: #bab8c3;
+}
+.finalize-modal-wrap .number-wrap button span{
+  border-bottom: 2px solid black;
+}
+.finalize-modal-wrap .calculator-footer{
+  margin-top: 9px;
+}
+.finalize-modal-wrap .calculator-alert-msg{
+  font-size: 9px;
+  color: #ff9479;
+  text-align: center;
+  font-weight: bold;
+}
+.finalize-modal-wrap .calculator-msg{
+  color: black;
+  padding: 3px;
+  background-color: white;
+}
+.finalize-modal-wrap .footer-amount-show{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: black;
+}
+.finalize-modal-wrap .amount-el{
+  border-right: 1px solid gray;
+  padding: 5px 10px;
+  text-align: right;
+  font-weight: 700;
+  color: green;
+}
+.finalize-modal-wrap .payment-wrap{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-gap: 10%;
+
+}
+.finalize-modal-wrap .remaining-amount{
+  margin-bottom: 20px;
+}
+.finalize-modal-wrap .payment-type ul{
+  padding-left: 0px;
+}
+.finalize-modal-wrap .payment-type ul li{
+  list-style-type: none;
+  background-color: #75cb63;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 7px;
+  border-radius: 2px;
+}
+
+.finalize-modal-wrap .payment-type ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.finalize-modal-wrap .remaing-balance{
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+.finalize-modal-wrap .no-of-remaing-balance{
+  background-color: black;
+  color: green;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5px;
+  text-align: right;
+}
+
+.finalize-modal-wrap .payment-method-header{
+  background-color: rgb(235, 235, 235);
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+.finalize-modal-wrap .payment-method-shwo table{
+  width: 100%;
+  background-color: #c3c3c5;
+}
+.finalize-modal-wrap .payment-method-shwo table thead{
+  background-color: rgb(235, 235, 235);
+}
+.finalize-modal-wrap .payment-method-shwo table tbody{
+  padding: 5px;
+}
+.finalize-modal-wrap .pay-btn-cancel {
+  background-color: #e65733;
+  color: black;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 1px;
+  border: 1px solid white;
+}
+.text-right{
+  text-align: right !important;
+}
+.finalize-modal-wrap .denomation-wrap{
+  display: flex;
+  margin-top: -7px;
+}
+.finalize-modal-wrap .denomation-wrap button{
+  margin: 0px 5px;
+}
+.finalize-modal-wrap .denomation-wrap ul{
+  padding-left: 0px;
+  display: flex;
+}
+
+.finalize-modal-wrap .denomation-wrap li{
+  list-style: none;
+  min-width: 110px;
+  height: 50px;
+  padding: 5px 15px;
+  background-color: #149d0e;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.finalize-modal-wrap .denomation-wrap li:hover{
+  background-color: #75cb63;
+}
+.finalize-modal-wrap .denomation-wrap li:last-child{
+  background-color: #dcaf04;
+}
+.finalize-modal-wrap .denomation-wrap li:last-child:hover{
+  background-color: #dcaf04b0;
+}
+
+.finalize-modal-wrap .my-0{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.finalize-modal-wrap .mx-3{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.finalize-modal-wrap .text-center{
+  text-align: center;
+}
+.finalize-modal-wrap .mt-30{
+  margin-top: 30px;
+}
+.finalize-modal-wrap .mt-0{
+  margin-top: 0px !important;
+}
+.txt_zak_1{
+  color: green;
+  text-align: right;
+  padding: 6px;
+  background-color: black;
+  font-weight: bold;
+  border-right: 1px solid #6b6b6b;
+}
+.txt_zak_2{
+  color: green;
+  text-align: right;
+  padding: 6px;
+  background-color: black;
+  font-weight: bold;
+}
+.txt_zak_3{
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+}

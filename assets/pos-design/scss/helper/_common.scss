@@ -1,0 +1,122 @@
+.hv-100{
+    height: 100vh;
+}
+
+.btn{
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.primary-btn{
+    background-color: $primary_color;
+    color: white;
+    @extend .btn;
+    &:hover{
+        background-color: darken($primary_color, 10);
+        color: white;
+    }
+}
+
+.secondary-btn{
+    background-color: $secondary_color;
+    color: $txt_color;
+    @extend .btn; 
+    &:hover{
+        background-color: darken($secondary_color, 10);
+        color: $txt_color;
+    }
+    &.selected{
+        background-color: #FFF9AE;
+        &:hover{
+            background-color: darken(#FFF9AE, 10);
+        }
+    }
+}
+
+.btn-lime-green{
+    background-color: #A9CF46;
+    color: white;
+    &:hover{
+        background-color: #769625 !important;
+        color: white !important;
+    }
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus{
+    border-color: $primary_color;
+}
+
+.d-flex{
+    display: flex !important;
+}
+
+.h-auto{
+    height: auto !important;
+}
+
+// =====================Colors Groups Class============================
+.bg-primary{
+    background-color: $primary-color;
+    color: white;
+    &:hover{
+        background-color: darken($primary-color, 10);
+        color: white;
+    }
+}
+
+.txt-color{
+    color: $txt_color;
+}
+
+.txt-ellipsis{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.focus-cart.selected{
+    background-color: $yellow;
+}
+
+.focus-btn.selected{
+    background-color: $yellow;
+}
+
+
+.paginationjs{
+    margin-top: 20px;
+    .paginationjs-pages{
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            li{
+                width: 55px;
+                height: 7px;
+                background-color: #E3E3E3;
+                margin-right: 5px;
+                cursor: pointer;
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+                    display: none;
+                }
+                &.paginationjs-page.active{
+                    background-color: #0048EC;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,174 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 3px 0px;
+  text-align: center;
+}
+
+.tbl {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.tbl tr td {
+  padding: 14px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 1px;
+  word-break: break-all;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.box-primary {
+  border-top-color: white !important;
+  margin-top: 5px;
+}
+/*
+customer Due report
+*/
+
+.foodMenuCartNotice {
+  border: 2px solid red;
+  padding: 4px;
+  border-radius: 5px;
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 44px;
+}
+.cart_container {
+  /* border: 1px solid black;*/
+}
+.cart_header {
+  background-color: #ecf0f5;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+}
+.ch_content {
+  font-weight: bold;
+}
+.custom_form_control {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #d2d6de;
+  width: 80%;
+  height: 26px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  margin: 0px 3px 7px 0px;
+}
+.center_positition {
+  text-align: center !important;
+}
+.error-msg {
+  display: none;
+}
+.aligning {
+  width: 80%;
+  float: left;
+}
+.aligning_x {
+  width: 80%;
+}
+.label_aligning {
+  float: left;
+  padding: 5px 0px 0px 3px;
+}
+.label-aligning_x {
+  float: left;
+  padding: 5px 0px 0px 3px;
+}
+.profit_txt {
+  background-color: #ecffd6 !important;
+  font-weight: bold !important;
+}
+
+.card.white_card {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 12px -6px rgb(24 39 75 / 12%), 0px 8px 24px -4px rgb(24 39 75 / 8%);
+  border-radius: 4px;
+  border: -0;
+  min-width: 160px;
+  max-width: 160px;
+  min-height: 110px;
+}
+.card.white_card .card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+.card.white_card .card-body .image-box {
+  display:  inline-flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.card.white_card .card-body .image-box img {
+  max-height: 40px;
+  object-fit: contain;
+}
+.card.white_card .card-body span {
+  font-size: 13px;
+  line-height: 16px;
+  color: #75777A;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.links {
+  text-decoration: none;
+}
+/* designer 7 css start*/
+.section-one-table-box-new .dataTables_wrapper{
+      flex-direction: column;
+}
+.section-one-table-box-new .pagination{
+    justify-content: flex-end;
+}
+.section-one-table-box-new .dataTables_length label{
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 150px;
+}
+.section-one-table-box-new select.form-control{
+      margin-left: 10px;
+}
+.section-one-table-box-new i.fa.fa-angle-down{
+  position: absolute;
+  right:15px;
+}
+.section-one-table-box-new .dataTables_filter {
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card.white_card {
+    min-width: 144px;
+    max-width: 144px;
+    min-height: 110px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card.white_card {
+    width: 100%;
+    max-width: 100%;
+  }
+}

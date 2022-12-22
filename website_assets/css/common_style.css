@@ -1,0 +1,28 @@
+.error-msg {
+    display: none;
+}
+#view_table .table>:not(caption)>*>* {
+    background-color: white !important;
+}
+#view_table .table thead{
+    background-color: gray !important;
+}
+#view_table .active-d{
+    background-color: #0A91CB;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+#view_table .inactive-d{
+    background-color: #ea5455;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.click_fo_no_link{
+    text-decoration: none;
+}
+
+
+
